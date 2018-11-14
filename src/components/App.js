@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 import Navigation from './Navigation';
-import LandingPage from '../constants/Landing';
-import SignUpPage from '../constants/SignUp';
-import SignInPage from '../constants/SignIn';
-import PasswordForgetPage from '../constants/PasswordForget';
-import HomePage from '../constants/Home';
-import AccountPage from '../constants/Account';
+import LandingPage from './Landing';
+import SignUpPage from './SignUp';
+import SignInPage from './SignIn';
+import PasswordForgetPage from './PasswordForget';
+import HomePage from './Home';
+import AccountPage from './Account';
 
 import * as routes from '../constants/routes';
 import { firebase } from '../firebase';
@@ -32,7 +32,7 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <div>
+                <div className="container">
                     <Navigation authUser={this.state.authUser} />
                     <hr/>
                     <Route exact path={routes.LANDING} component={LandingPage} />
