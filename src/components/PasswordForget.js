@@ -55,6 +55,7 @@ class PasswordForgetForm extends Component {
                     onChange={event => this.setState(byPropKey('email', event.target.value))}
                     type="text"
                     placeholder="Email Address"
+                    className={"form-control"}
                 />
                 <button disabled={isInvalid} type="submit">
                     Reset My Password
@@ -67,9 +68,9 @@ class PasswordForgetForm extends Component {
 }
 
 const PasswordForgetLink = () =>
-    <p>
+    <div id="register-link" className="text-right">
         <Link to={routes.PASSWORD_FORGET}>Forgot Password?</Link>
-    </p>
+    </div>
 
 export default PasswordForgetPage;
 
