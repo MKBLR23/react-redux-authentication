@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Navigation from './Navigation';
 import LandingPage from './landing/Landing';
 import SignUpPage from './signup/SignUp';
-import SignInPage from './SignIn';
+import SignInPage from './signin/SignIn';
 import PasswordForgetPage from './PasswordForget';
 import HomePage from './Home';
 import AccountPage from './Account';
@@ -31,7 +31,7 @@ class App extends Component {
 
     render() {
         return (
-            <Router>
+            <Router basename={'/react-redux-authentication'}>
                 <div className="container">
                     <Navigation authUser={this.state.authUser} />
                     <hr/>

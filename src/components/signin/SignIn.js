@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import {withRouter} from 'react-router-dom';
 
-import {SignUpLink} from "./signup/SignUp";
-import {PasswordForgetLink} from './PasswordForget';
-import {auth} from "../firebase";
-import * as routes from '../constants/routes';
+import Alert from 'react-bootstrap/lib/Alert';
+import './style.css';
+import {SignUpLink} from "../signup/SignUp";
+import {PasswordForgetLink} from '../PasswordForget';
+import {auth} from "../../firebase";
+import * as routes from '../../constants/routes';
 
 const SignInPage = ({history}) =>
     <div id="login">
@@ -93,10 +95,16 @@ class SignInForm extends Component {
                         className={"form-control"}
                     />
                 </div>
-                <div className="form-group">
+                <div className="form-group" onClick={this.handleDismiss}>
                     <button disabled={isInvalid} type={"submit"} className="btn btn-info btn-md">Sign In</button>
                 </div>
-                {error && <p>{error.message}</p>}
+
+                {error &&
+                <Alert bsStyle="danger">
+                    <strong>Error!</strong>{error.message}
+                </Alert>
+                }
+
             </form>
         )
     }
