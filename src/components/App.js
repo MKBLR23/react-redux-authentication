@@ -31,7 +31,7 @@ class App extends Component {
 
     render() {
         return (
-            <Router basename={'/react-redux-authentication'}>
+            <Router basename={routes.BASE_PATH}>
                 <div className="container">
                     <Navigation authUser={this.state.authUser} />
                     <hr/>
