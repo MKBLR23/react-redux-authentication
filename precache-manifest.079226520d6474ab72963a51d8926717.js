@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/react-redux-authentication/static/js/runtime~main.a93c3d7a.js"
   },
   {
-    "revision": "68d446b11c2f23f2e696",
-    "url": "/react-redux-authentication/static/js/main.68d446b1.chunk.js"
+    "revision": "5ada244529a50c3a4d52",
+    "url": "/react-redux-authentication/static/js/main.5ada2445.chunk.js"
   },
   {
     "revision": "5113fc25032b7c0a1d37",
     "url": "/react-redux-authentication/static/js/1.5113fc25.chunk.js"
   },
   {
-    "revision": "68d446b11c2f23f2e696",
+    "revision": "5ada244529a50c3a4d52",
     "url": "/react-redux-authentication/static/css/main.3cef0a32.chunk.css"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/react-redux-authentication/static/css/1.5841a15d.chunk.css"
   },
   {
-    "revision": "4af1f2cfaa6a985711c5b686c07e9ced",
+    "revision": "2ea56435ff10e7c5e63771192715196c",
     "url": "/react-redux-authentication/index.html"
   }
 ];
