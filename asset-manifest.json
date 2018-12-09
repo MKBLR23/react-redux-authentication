@@ -1,7 +1,7 @@
 {
   "main.css": "/react-redux-authentication/static/css/main.3cef0a32.chunk.css",
-  "main.js": "/react-redux-authentication/static/js/main.5ada2445.chunk.js",
-  "main.js.map": "/react-redux-authentication/static/js/main.5ada2445.chunk.js.map",
+  "main.js": "/react-redux-authentication/static/js/main.68d446b1.chunk.js",
+  "main.js.map": "/react-redux-authentication/static/js/main.68d446b1.chunk.js.map",
   "static/css/1.5841a15d.chunk.css": "/react-redux-authentication/static/css/1.5841a15d.chunk.css",
   "static/js/1.5113fc25.chunk.js": "/react-redux-authentication/static/js/1.5113fc25.chunk.js",
   "static/js/1.5113fc25.chunk.js.map": "/react-redux-authentication/static/js/1.5113fc25.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/css/main.3cef0a32.chunk.css.map": "/react-redux-authentication/static/css/main.3cef0a32.chunk.css.map",
   "static/css/1.5841a15d.chunk.css.map": "/react-redux-authentication/static/css/1.5841a15d.chunk.css.map",
   "index.html": "/react-redux-authentication/index.html",
-  "precache-manifest.079226520d6474ab72963a51d8926717.js": "/react-redux-authentication/precache-manifest.079226520d6474ab72963a51d8926717.js",
+  "precache-manifest.52215e1be757ae878054cd25c5fb7abb.js": "/react-redux-authentication/precache-manifest.52215e1be757ae878054cd25c5fb7abb.js",
   "service-worker.js": "/react-redux-authentication/service-worker.js"
 }
