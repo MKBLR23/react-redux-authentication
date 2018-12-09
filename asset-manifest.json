@@ -1,16 +1,16 @@
 {
   "main.css": "/react-redux-authentication/static/css/main.3cef0a32.chunk.css",
-  "main.js": "/react-redux-authentication/static/js/main.68d446b1.chunk.js",
-  "main.js.map": "/react-redux-authentication/static/js/main.68d446b1.chunk.js.map",
+  "main.js": "/react-redux-authentication/static/js/main.08a6e6b0.chunk.js",
+  "main.js.map": "/react-redux-authentication/static/js/main.08a6e6b0.chunk.js.map",
   "static/css/1.5841a15d.chunk.css": "/react-redux-authentication/static/css/1.5841a15d.chunk.css",
   "static/js/1.5113fc25.chunk.js": "/react-redux-authentication/static/js/1.5113fc25.chunk.js",
   "static/js/1.5113fc25.chunk.js.map": "/react-redux-authentication/static/js/1.5113fc25.chunk.js.map",
   "runtime~main.js": "/react-redux-authentication/static/js/runtime~main.a93c3d7a.js",
   "runtime~main.js.map": "/react-redux-authentication/static/js/runtime~main.a93c3d7a.js.map",
-  "static/media/slick-theme.css": "/react-redux-authentication/static/media/slick.b7c9e1e4.woff",
+  "static/media/slick-theme.css": "/react-redux-authentication/static/media/slick.d41f55a7.ttf",
   "static/css/main.3cef0a32.chunk.css.map": "/react-redux-authentication/static/css/main.3cef0a32.chunk.css.map",
   "static/css/1.5841a15d.chunk.css.map": "/react-redux-authentication/static/css/1.5841a15d.chunk.css.map",
   "index.html": "/react-redux-authentication/index.html",
-  "precache-manifest.52215e1be757ae878054cd25c5fb7abb.js": "/react-redux-authentication/precache-manifest.52215e1be757ae878054cd25c5fb7abb.js",
+  "precache-manifest.9a912ab27b42277e76bdf8b8d6e549e0.js": "/react-redux-authentication/precache-manifest.9a912ab27b42277e76bdf8b8d6e549e0.js",
   "service-worker.js": "/react-redux-authentication/service-worker.js"
 }
